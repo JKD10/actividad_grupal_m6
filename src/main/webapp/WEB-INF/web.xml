@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>contactoServlet</servlet-name>
+  	<display-name>contactoServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.contactoServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>crearCapacitacionServlet</servlet-name>
+  	<display-name>crearCapacitacionServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.crearCapacitacionServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>inicioServlet</servlet-name>
+  	<display-name>inicioServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.inicioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>contactoServlet</servlet-name>
+  	<url-pattern>/contactoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>crearCapacitacionServlet</servlet-name>
+  	<url-pattern>/crearCapacitacionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>inicioServlet</servlet-name>
+  	<url-pattern>/inicioServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
